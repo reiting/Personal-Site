@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rachel Eiting</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container" id="navbarLinks">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar, #anotherID, #myUl" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="anotherID">
+                    <div id="myNavbar"></div>
+                    <ul class="nav navbar-nav navbar-left words">
+                        <li class="page-scroll nav-links">
+                            <a class="page-scroll" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-links">
+                            <a class="page-scroll" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-links">
+                            <a class="page-scroll" href="#experience">EXPERIENCE</a>
+                        </li>
+                        <li class="nav-links">
+                            <a class="page-scroll" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll nav-links">
+                            <a href="https://github.com/reiting" class="page-scroll">
+                                <i class="fa fa-github-square fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="https://codepen.io/reiting/" class="page-scroll">
+                                <i class="fa fa-codepen fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="https://www.linkedin.com/in/rachel-eiting-47573318/" class="page-scroll">
+                                <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="https://www.freecodecamp.org/fcca1308d0d-50dd-4e8a-837a-63d5738b31cf" class="page-scroll">
+                                <i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid first-section" id="home">
+            <div class="row">
+                <h1>Who Am I?</h1>
+            </div>
+            <div class="row">
+                <img class="img-responsive center-block profile-picture" src="http://i1174.photobucket.com/albums/r616/reiting/rachel_zps5thl7z0e.jpeg"
+                    alt="Profile picture">
+            </div>
+            <h2>I'm a front-end developer who loves to build engaging and creative websites.</h2>
+        </div>
+        <div class="container-fluid second-section" id="projects">
+            <h1>What Are My Skills?</h1>
+            <div class="row">
+                <div class="col-sm-6">
+            <ul>
+                <li class="skills">HTML5</li>
+                <li class="skills">CSS</li>
+                <li class="skills">Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-sm-6">
+            <ul>
+                <li class="skills">LESS</li>
+                <li class="skills">Javascript</li>
+                <li class="skills">JQuery</li>
+            </ul>
+        </div>
+        </div>
+            <!--<h4>HTML5, CSS, Bootstrap, LESS, Javascript, JQuery</h4>-->
+            <h4>Check out some things I've built:</h4>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner text-center" role="listbox">
+                    <div class="item active">
+                        <a href="https://codepen.io/reiting/pen/LWvrXL" target="_blank">
+                            <img src="http://i1174.photobucket.com/albums/r616/reiting/pong_zpsb7yow3n5.png" alt="Pong game using Javascript" class="img-responsive center-block">
+                        </a>
+                        <div class="carousel-caption">
+                            <h4>Pong</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="https://codepen.io/reiting/pen/pZjxax" target="_blank">
+                            <img src="http://i1174.photobucket.com/albums/r616/reiting/Dice_zpsj57se8dh.png" alt="Dice game where you can roll, reroll, and add up dice"
+                                class="img-responsive center-block">
+                        </a>
+                        <div class="carousel-caption">
+                            <h4>A Dice Game</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="https://codepen.io/reiting/pen/jpbeyz" target="_blank">
+                            <img src="http://i1174.photobucket.com/albums/r616/reiting/Typing_zpsflztp2ug.png" alt="A typing game to improve keyboard skills"
+                                class="center-block img-responsive">
+                        </a>
+                        <div class="carousel-caption">
+                            <h4>Typing Practice</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="https://codepen.io/reiting/pen/gjPxRN" target="_blank">
+                            <img src="http://i1174.photobucket.com/albums/r616/reiting/shapes_zpshp8bxsfq.png" alt="Shape generator where user enters dimensions and shapes appear on screen"
+                                class="center-block img-responsive">
+                        </a>
+                        <div class="carousel-caption">
+                            <h4>Shapes Generator</h4>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid third-section" id="experience">
+            <h1>Where Did I Learn?</h1>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>Covalence</h4>
+                    <img class="img-responsive center-block education-image" src="http://i1174.photobucket.com/albums/r616/reiting/covalence-mark-blue-gradient_zpspd6gr8fl.jpg"
+                        alt="Covalence">
+                    <p>Front End and Full Stack Certificates</p>
+                </div>
+                <div class="col-sm-6">
+                    <h4>University of Montevallo</h4>
+                    <img class="img-responsive center-block education-image" src="http://i1174.photobucket.com/albums/r616/reiting/Montevallo_Logo_Falcon_zpsobdu2gz8.jpg"
+                        alt="University of Montevallo">
+                    <p>B.A. in English/Minor in Sociology and M.Ed in Education</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid contact-section">
+            <a class="anchor" id="contact"></a>
+            <h1 class="section-header">How To Reach Me?</h1>
+            <p>If you'd like to get in touch, please send me an e-mail.</p>
+            <form id="contact-form" action="mailto:reiting1@gmail.com" method="post" enctype="text/plain" role="form">
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">First name *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name here." required="required"
+                                    data-error="First name is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Last name *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name here."
+                                    required="required" data-error="Last name is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email here." required="required"
+                                    data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone">Phone</label>
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number here.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Please enter your message here." rows="4" required="required"
+                                    data-error="Please,leave me a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-muted">
+                                <strong>*</strong> Required Field</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

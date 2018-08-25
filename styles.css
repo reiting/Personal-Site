@@ -1,0 +1,103 @@
+@media (max-width: 1060px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+navbar {
+    color: white;
+  }
+
+  #navbarLinks {
+    background-color: skyblue;
+    width: 100vw;
+    margin-top: 0;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: inline;
+    padding-left: 2em;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+    color: white;
+  }
+
+.first-section {
+    text-align: center;
+    background-color: lightseagreen;
+    padding-top: 50px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.container-fluid {
+    padding-bottom: 70px;
+}
+
+.second-section {
+    text-align: center;
+    background-color: beige;
+}
+
+.third-section {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.education-image {
+    max-height: 210px;
+}
+
+.carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: 400px !important;
+}
+
+.contact-section {
+    text-align: center;
+    background-color: #cdf0e1;
+}
+
+.skills {
+    list-style-type: none;
+}
+
